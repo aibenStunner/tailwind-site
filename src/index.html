@@ -47,16 +47,18 @@
             <a href="#" class="font-bold text-2xl text-teal-800"
               >Beginner Tailwind</a
             >
-            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+            <a href="#about" class="hidden lg:inline-block hover:text-gray-900"
               >About</a
             >
-            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+            <a href="#learn" class="hidden lg:inline-block hover:text-gray-900"
               >What You'll Learn</a
             >
-            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+            <a
+              href="#pricing"
+              class="hidden lg:inline-block hover:text-gray-900"
               >Pricing</a
             >
-            <a href="#" class="hidden lg:inline-block hover:text-gray-900"
+            <a href="#faq" class="hidden lg:inline-block hover:text-gray-900"
               >FAQ</a
             >
           </div>
@@ -132,7 +134,7 @@
       <!-- =========================================-->
       <!-- overview ============================-->
       <!-- =========================================-->
-      <div class="relative bg-purple-700 pt-24 pb-24">
+      <div id="about" class="relative bg-purple-700 pt-24 pb-24">
         <!-- gray box to help with transition -->
         <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300"></div>
 
@@ -286,7 +288,7 @@
       <!-- =========================================-->
       <!-- what you'll learn ============================-->
       <!-- =========================================-->
-      <div class="py-32 bg-gray-200 text-gray700">
+      <div id="learn" class="py-32 bg-gray-200 text-gray700">
         <div class="container mx-auto px-6 lg:px-0">
           <!-- header -->
           <div class="relative">
@@ -392,7 +394,7 @@
       <!-- =========================================-->
       <!-- what we'll build ============================-->
       <!-- =========================================-->
-      <div class="py-24 bg-gray-300 text-gray-600">
+      <div id="build" class="py-24 bg-gray-300 text-gray-600">
         <div class="container mx-auto px-6 lg:px-0">
           <div class="mb-10 text-center">
             <h2 class="mb-2 text-5xl text-gray-800">What We'll Build</h2>
@@ -507,7 +509,7 @@
       <!-- =========================================-->
       <!-- pricing ============================-->
       <!-- =========================================-->
-      <div class="relative bg-blue-600 py-32 text-blue-200">
+      <div id="pricing" class="relative bg-blue-600 py-32 text-blue-200">
         <!-- gray box for the top section -->
         <div class="absolute top-0 inset-x-0 h-48 bg-gray-300"></div>
 
@@ -585,7 +587,7 @@
       <!-- =========================================-->
       <!-- faq ============================-->
       <!-- =========================================-->
-      <div class="bg-gray-800 py-32 text-gray-400">
+      <div id="faq" class="bg-gray-800 py-32 text-gray-400">
         <div class="container mx-auto px-6 lg:px-0">
           <h2 class="text-3xl text-center font-bold mb-12">
             Frequently Asked Questions
@@ -679,6 +681,116 @@
       <!-- =========================================-->
       <!-- footer/newsletter ============================-->
       <!-- =========================================-->
+      <div
+        class="relative py-24 bg-gradient-to-br from-gray-100 to-gray-300 text-gray-600"
+      >
+        <!-- left circle -->
+        <div
+          class="absolute top-0 left-0 transform translate-x-4 translate-y-4"
+        >
+          <div
+            class="absolute bg-gradient-to-br from-teal-100 to-teal-200 w-44 h-44 rounded-full opacity-30"
+          ></div>
+          <div
+            class="absolute ml-10 mt-24 bg-gradient-to-br from-purple-100 to-purple-200 w-44 h-44 rounded-full opacity-30"
+          ></div>
+          <div
+            class="absolute ml-24 bg-gradient-to-br from-red-100 to-red-200 w-44 h-44 rounded-full opacity-30"
+          ></div>
+        </div>
+
+        <div class="relative container mx-auto px-6 lg:px-0">
+          <!-- top footer -->
+          <div class="lg:flex justify-between space-y-12 lg:space-y-0">
+            <!-- newsletter -->
+            <div class="flex flex-col justify-center">
+              <h4
+                class="mb-5 font-bold text-2xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-purple-500"
+              >
+                Get updates on this course
+              </h4>
+              <form action="" method="POST" class="flex">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="super@secret.com"
+                  class="w-full p-3 rounded-l outline-none border-r-0 focus:border-purple-400 border-2 border-gray-400 placeholder-gray-300"
+                />
+                <button class="p-3 bg-purple-400 text-purple-100 rounded-r">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+            <!-- links -->
+            <div
+              class="text-center lg:text-right md:flex md:justify-center md:space-x-8 space-y-8 md:space-y-0"
+            >
+              <div class="space-y-2">
+                <p
+                  class="mb-3 font-bold text-gray-500 uppercase tracking-widest"
+                >
+                  Company
+                </p>
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >About</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Blog</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Careers</a
+                >
+              </div>
+              <div class="space-y-2">
+                <p
+                  class="mb-3 font-bold text-gray-500 uppercase tracking-widest"
+                >
+                  Company
+                </p>
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >About</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Blog</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Careers</a
+                >
+              </div>
+              <div class="space-y-2">
+                <p
+                  class="mb-3 font-bold text-gray-500 uppercase tracking-widest"
+                >
+                  Company
+                </p>
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >About</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Blog</a
+                >
+                <a href="#" class="block hover:text-gray-800 hover:underline"
+                  >Careers</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- bottom footer -->
+          <div
+            class="pt-4 mt-16 md:flex justify-between border-t border-gray-300 text-sm text-center md:text-left space-y-4 md:space-y-0"
+          >
+            <!-- copyright -->
+            <div>Copyright &copy: 2022 - 4065</div>
+            <!-- links -->
+            <div class="space-x-4">
+              <a href="#">Discord</a>
+              <a href="#">Twitter</a>
+              <a href="#">StackOverflow</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
